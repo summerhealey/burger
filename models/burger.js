@@ -7,13 +7,13 @@ const burger = {
         cb(res);
       });
     },
-    create: (value, cb) => {
-      orm.create(value, (res) => {
+    insertOne: (value, cb) => {
+      orm.insertOne(value, (res) => {
         cb(res);
       });
     },
-    update: (condition, cb) => {
-      orm.update(condition, (res) => {
+    updateOne: (condition, cb) => {
+      orm.updateOne(condition, (res) => {
         cb(res);
       });
     },

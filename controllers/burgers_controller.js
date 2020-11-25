@@ -14,13 +14,13 @@ router.get("/", (req, res) => {
 });
 
 router.post("/api/burgers", (req,res) => {
-  burger.create(req.body.name,(result) => {
+  burger.insertOne(req.body.name,(result) => {
       res.status(200).end();
   });
 });
 
 router.put("/api/burgers/:id", (req,res) => {
-  burger.update(req.params.id, (result) => {
+  burger.updateOne(req.params.id, (result) => {
       if(result.changedRows == 0){ // ID doesn't exist
           return res.status(404).end();
       } else{
