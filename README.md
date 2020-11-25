@@ -32,7 +32,7 @@ The following animation demonstrates the client's request for application functi
 
 Application Demo: 
 
-![Deployed Application Screenshot of Homepage](https://gph.is/g/ZrGq1wx)
+![GIF of Burger Demo](https://media.giphy.com/media/8yVi19y3YuYEbBY6aL/giphy.gif)
 
 GitHub Repository: https://github.com/summerhealey/burger/
 
